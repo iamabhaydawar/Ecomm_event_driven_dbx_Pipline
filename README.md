@@ -79,6 +79,9 @@ This pipeline follows a modular, event-driven architecture with the following st
 ✅ **Archive Management**: Automated file archival
 
 ## Data Flow
+### Successful Pipeline Execution Graph
+This shows the successful execution of all pipeline stages:
+<img width="1895" height="908" alt="Screenshot 2025-12-21 222432" src="https://github.com/user-attachments/assets/6ce6a50f-326c-48fc-95e1-94dff01678ca" />
 
 ```
 Source Data (External Volume)
@@ -148,6 +151,13 @@ Tasks:
   - Task 7: data_enrichment (depends on Task 6)
   - Task 8: final_merge_operation (depends on Task 7)
 ```
+
+
+
+
+
+
+
 
 ## Monitoring and Logging
 
